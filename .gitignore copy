@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Output directories
+dist/
+build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Jest cache
+jest.config.js
+.jest/
+.cache/
+
+# Husky & lint staged
+.husky/_/
+lint-staged.config.js
+
+# PM2 process files
+pids/
+*.pid
+*.seed
+
+# Misc
+*.tgz
+*.zip
+*.bak
+*.tmp
+*.log
+
+# Debugging
+*.log
+*.err
+*.out
+
+# Swagger/Postman
+swagger.json
+postman_collection.json
